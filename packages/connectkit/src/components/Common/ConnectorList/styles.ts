@@ -216,6 +216,45 @@ const styles = {
   },
 };
 
+export const IncompatibleWalletTag = styled(motion.span)`
+  position: relative;
+  top: var(--ck-recent-badge-top-offset, 0.5px);
+  display: inline-block;
+  padding: 10px 7px;
+  line-height: 0;
+  font-size: 13px;
+  font-weight: 400;
+  border-radius: var(--ck-recent-badge-border-radius, var(--border-radius));
+  color: var(
+    --ck-recent-badge-color,
+    var(--ck-accent-color, var(--ck-body-color-muted, currentColor))
+  );
+  background: var(--ck-recent-badge-background, transparent);
+  overflow: hidden;
+  span {
+    display: inline-block;
+    position: relative;
+  }
+  &:before {
+    z-index: 1;
+    content: '';
+    position: absolute;
+    inset: 0;
+    opacity: 0.4;
+    box-shadow: var(--ck-recent-badge-box-shadow, inset 0 0 0 1px currentColor);
+    border-radius: inherit;
+  }
+  &:after {
+    z-index: 2;
+    content: '';
+    position: absolute;
+    inset: -10%;
+    top: -110%;
+    aspect-ratio: 1/1;
+    opacity: 0.7;
+  }
+`;
+
 export const RecentlyUsedTag = styled(motion.span)`
   position: relative;
   top: var(--ck-recent-badge-top-offset, 0.5px);

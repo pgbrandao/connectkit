@@ -6,6 +6,7 @@ import {
   ConnectorLabel,
   ConnectorIcon,
   RecentlyUsedTag,
+  IncompatibleWalletTag,
 } from './styles';
 
 import { useWeb3 } from '../../contexts/web3';
@@ -22,6 +23,7 @@ import {
 } from '../../../utils';
 import { useLastConnector } from '../../../hooks/useLastConnector';
 import { useConnect } from '../../../hooks/useConnect';
+import useLocales from '../../../hooks/useLocales';
 
 const ConnectorList = () => {
   const context = useContext();
@@ -82,6 +84,7 @@ const ConnectorItem = ({
   const uri = getUri();
   const isMobile = useIsMobile();
   const context = useContext();
+  const locales = useLocales({});
 
   const { connect } = useConnect();
 
@@ -109,12 +112,16 @@ const ConnectorItem = ({
 
   if (redirectToMoreWallets || shouldConnectImmediately) deeplink = undefined; // mobile redirects to more wallets page
 
+  if (wallet.id === 'magic') return <></>;
+
+  const isIncompatibleWallet = ['com.exodus.web3-wallet'].includes(wallet.id);
+
   return (
     <ConnectorButton
       type="button"
       as={deeplink ? 'a' : undefined}
       href={deeplink ? deeplink : undefined}
-      disabled={context.route !== routes.CONNECTORS}
+      disabled={context.route !== routes.CONNECTORS || isIncompatibleWallet}
       onClick={
         deeplink
           ? undefined
@@ -143,6 +150,11 @@ const ConnectorItem = ({
           <RecentlyUsedTag>
             <span>Recent</span>
           </RecentlyUsedTag>
+        )}
+        {isIncompatibleWallet && (
+          <IncompatibleWalletTag>
+            <span>{locales.connectorsScreen_unsupportedWallet}</span>
+          </IncompatibleWalletTag>
         )}
       </ConnectorLabel>
     </ConnectorButton>

@@ -16,7 +16,7 @@ const trTR: LocaleProps = {
   more: 'Daha Fazla',
   tryAgain: 'Tekrar Dene',
   tryAgainQuestion: 'Tekrar Dene?',
-  dontHaveTheApp: "Uygulaman yok mu?",
+  dontHaveTheApp: 'Uygulaman yok mu?',
   scanTheQRCode: 'Karekodu tarat',
   useWalletConnectModal: 'WalletConnect Modalini Kullan ',
   useModal: 'Modal Kullan',
@@ -59,6 +59,7 @@ const trTR: LocaleProps = {
   connectorsScreen_newcomer: `Cüzdanım Yok`,
   connectorsScreen_h1: `Cüzdan nedir?`,
   connectorsScreen_p: `Cüzdanlar, dijital varlıkları göndermek, almak ve depolamak için kullanılır. Bir cüzdanı bağlamak, uygulamalarla etkileşime geçmenizi sağlar.`,
+  connectorsScreen_unsupportedWallet: `Bu cüzdan desteklenmiyor.`,
 
   mobileConnectorsScreen_heading: `Cüzdan Seç`,
 
@@ -74,7 +75,6 @@ const trTR: LocaleProps = {
 
   injectionScreen_unavailable_h1: `Desteklenmeyen Tarayıcı`,
   injectionScreen_unavailable_p: `{{ CONNECTORSHORTNAME }} cüzdanına bağlanmak için\n{{ SUGGESTEDEXTENSIONBROWSER }} üzerinde indirmen gerekiyor.`,
-  
 
   injectionScreen_install_h1: `{{ CONNECTORNAME }} İndir`,
   injectionScreen_install_p: `{{ CONNECTORSHORTNAME }} cüzdanına bağlanmak için,\ntarayıcı eklentisini indir.`,

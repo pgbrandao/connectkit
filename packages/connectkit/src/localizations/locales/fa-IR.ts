@@ -59,6 +59,7 @@ const faIR: LocaleProps = {
   connectorsScreen_newcomer: `کیف پول ندارم`,
   connectorsScreen_h1: `چیستی رمزگذاری کیف پول؟`,
   connectorsScreen_p: `کیف پول‌ها برای ارسال، دریافت و نگهداری دارایی‌های دیجیتال استفاده می‌شوند. برقراری ارتباط با یک کیف پول به شما امکان تعامل با برنامه‌ها را می‌دهد.`,
+  connectorsScreen_unsupportedWallet: `کیف پول شما در حال حاضر پشتیبانی نمی‌کند.`,
 
   mobileConnectorsScreen_heading: `انتخاب کیف پول`,
 

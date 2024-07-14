@@ -57,6 +57,7 @@ export default {
   connectorsScreen_newcomer: `ウォレットを持っていません`,
   connectorsScreen_h1: `ウォレットとは何ですか？`,
   connectorsScreen_p: `ウォレットは、デジタル資産の送信、受信、および保存に使用されます。 ウォレットを接続すると、アプリとやり取りできます。`,
+  connectorsScreen_unsupportedWallet: `このウォレットはサポートされていません。`,
 
   mobileConnectorsScreen_heading: `ウォレットを選択`,
 

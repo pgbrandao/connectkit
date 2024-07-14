@@ -46,7 +46,7 @@ const ruRU: LocaleProps = {
   onboardingScreen_ctaUrl: `https://ethereum.org/en/wallets/find-wallet/`,
 
   aboutScreen_heading: `О кошельках`,
-    aboutScreen_a_h1: `Для ваших цифровых активов`,
+  aboutScreen_a_h1: `Для ваших цифровых активов`,
   aboutScreen_a_p: `Кошельки позволяют вам отправлять, получать, хранить и взаимодействовать с цифровыми активами, такими как NFT и другие токены Ethereum.`,
   aboutScreen_b_h1: `Лучший способ входа`,
   aboutScreen_b_p: `В современных приложениях ваш кошелек можно использовать как удобный способ входа без необходимости помнить пароль.`,
@@ -59,6 +59,7 @@ const ruRU: LocaleProps = {
   connectorsScreen_newcomer: `У меня нет кошелька`,
   connectorsScreen_h1: `Что такое кошелек?`,
   connectorsScreen_p: `Кошельки используются для отправки, получения и хранения цифровых активов. Подключение кошелька позволяет вам взаимодействовать с приложениями.`,
+  connectorsScreen_unsupportedWallet: `Поддерживаемый кошелек не найден`,
 
   mobileConnectorsScreen_heading: `Выберите кошелек`,
 

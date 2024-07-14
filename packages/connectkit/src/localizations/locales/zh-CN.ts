@@ -59,6 +59,7 @@ const zhCN: LocaleProps = {
   connectorsScreen_newcomer: `我没有钱包`,
   connectorsScreen_h1: `什么是钱包？`,
   connectorsScreen_p: `钱包可用于发送、接收和存储数字资产。通过绑定钱包，您可以与应用进行交互。`,
+  connectorsScreen_unsupportedWallet: `不支持的钱包`,
 
   mobileConnectorsScreen_heading: `选择钱包`,
 

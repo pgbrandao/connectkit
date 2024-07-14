@@ -59,6 +59,7 @@ const eeEE: LocaleProps = {
   connectorsScreen_newcomer: `Mul pole rahakotti`,
   connectorsScreen_h1: `Mis on rahakott?`,
   connectorsScreen_p: `Rahakotte kasutatakse digitaalsete varade saatmiseks, vastuvõtmiseks ja salvestamiseks. Rahakoti ühendamine võimaldab teil rakendustega suhelda.`,
+  connectorsScreen_unsupportedWallet: `Rahakott ei toetata`,
 
   mobileConnectorsScreen_heading: `Valige rahakott`,
 

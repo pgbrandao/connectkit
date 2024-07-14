@@ -4,10 +4,6 @@
   "description": "Family ConnectKit.",
   "main": "packages/connectkit/src/index.ts",
   "private": true,
-  "workspaces": [
-    "packages/*",
-    "examples/*"
-  ],
   "scripts": {
     "dev:connectkit": "yarn workspace connectkit run dev",
     "dev:connectkit-next-siwe": "yarn workspace connectkit-next-siwe run dev",

@@ -59,6 +59,7 @@ const viVN: LocaleProps = {
   connectorsScreen_newcomer: `Tôi chưa có ví`,
   connectorsScreen_h1: `Ví là gì?`,
   connectorsScreen_p: `Ví dùng để gửi, nhận, và lưu trữ các tài sản điện tử. Kết nối với một ví giúp bạn tương tác với các ứng dụng.`,
+  connectorsScreen_unsupportedWallet: `Ví này không được hỗ trợ`,
 
   mobileConnectorsScreen_heading: `Chọn ví`,
 

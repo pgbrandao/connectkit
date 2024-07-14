@@ -59,6 +59,7 @@ const frFR: LocaleProps = {
   connectorsScreen_newcomer: `Je n’ai pas de portefeuille`,
   connectorsScreen_h1: `Qu’est-ce qu’un portefeuille ?`,
   connectorsScreen_p: `Les portefeuilles s'utilisent pour envoyer, recevoir et stocker des actifs numériques. La connexion d'un portefeuille vous permet d'interagir avec les applications.`,
+  connectorsScreen_unsupportedWallet: `Portefeuille non pris en charge`,
 
   mobileConnectorsScreen_heading: `Choisissez le portefeuille`,
 

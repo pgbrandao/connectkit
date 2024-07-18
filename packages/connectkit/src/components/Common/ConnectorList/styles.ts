@@ -220,8 +220,7 @@ export const IncompatibleWalletTag = styled(motion.span)`
   position: relative;
   top: var(--ck-recent-badge-top-offset, 0.5px);
   display: inline-block;
-  padding: 10px 7px;
-  line-height: 0;
+  padding: 3px 7px;
   font-size: 13px;
   font-weight: 400;
   border-radius: var(--ck-recent-badge-border-radius, var(--border-radius));

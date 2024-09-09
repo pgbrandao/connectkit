@@ -54,6 +54,7 @@ const defaultConnectors = ({
       walletConnect({
         showQrModal: false,
         projectId: walletConnectProjectId,
+        relayUrl: 'wss://relay.walletconnect.org',
         metadata: hasAllAppData
           ? {
               name: app.name,
